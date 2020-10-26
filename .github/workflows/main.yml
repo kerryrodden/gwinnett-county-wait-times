@@ -2,8 +2,8 @@ name: Fetch table
 
 on:
   workflow_dispatch:
-#   schedule:
-#     - cron: "0 12 * * *"
+  schedule:
+    - cron: "15,45 11-22 * 10-11 *"
 env:
   TZ: America/New_York
 jobs:
